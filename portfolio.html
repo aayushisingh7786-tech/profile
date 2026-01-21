@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/aayus/OneDrive/Desktop/portfolio/portfolio/portfolio.html">Home</a></li>
+                <li><a
+                        href="file:///C:/Users/aayus/OneDrive/Desktop/siliconlogicfullstack/siliconlogicfullstack/register.html">Register</a>
+                </li>
+                <li><a href="file:///C:/Users/aayus/OneDrive/Desktop/portfolio/portfolio/portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="todo-app">
+            <h2>My To-Do List</h2>
+            <div class="todo-wrapper">
+                <input type="text" id="taskInput" placeholder="Add a new task...">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="taskList">
+            </ul>
+            <button onclick="clearTasks()" style="background-color: #dc3545; margin-top: 10px;">Clear
+                All</button>
+        </section>
+        <script src="script.js"></script>
+    </main>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li><strong>Frontend:</strong> HTML5, Semantic Web</li>
+            <li><strong>Backend:</strong> Python (Learning in
+                progress)</li>
+            <li><strong>Tools:</strong> Git, VS Code</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <article>
+            <h3>Project 1: Student Registration Form</h3>
+            <p>A comprehensive HTML form using various input types like text,
+                radio, and select.</p>
+            <a href="https://github.com/aayushisingh7786-tech/siliconlogicfullstack.git">View Project</a>
+            <a href="file:///C:/Users/aayus/OneDrive/Desktop/siliconlogicfullstack/siliconlogicfullstack/register.html">open
+                form</a>
+        </article>
+        <article>
+            <h3>Project 2: Hello Web</h3>
+            <p>My first webpage deployed to GitHub.</p>
+            <a href="https://github.com/aayushisingh7786-tech/my-first-deployment.git">View Project</a>
+            <a href="file:///C:/Users/aayus/OneDrive/Desktop/my-first-deployment/my-first-deployment/index.html">see the
+                result</a>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="message" rows="3"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 aayushisingh.</p>
+        <p>
+            <a href="#about">Back to Top</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
